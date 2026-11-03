@@ -1,0 +1,37 @@
+
+.banner {
+  background-image: url('../../images/Goldblum-cover.avif');
+  background-size: cover;
+  background-position: center -20px;
+  height: 600px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 15%;
+}
+
+.inside-banner {
+  font-size: 200%;
+  color: white;
+}
+
+.apply-btn {
+  background-color: #6AD58B;
+  border-radius: 6px;
+  color: white;
+  padding: 15px 25px;
+  font-weight: bold;
+}
+
+.apply-btn:hover {
+  background-color: #40cb6c;
+  transition : 0.3s ease;
+}
+
+.inside-banner h2 {
+  text-shadow: 2px 2px 6px #40cb6c;
+}
+
+.inside-banner p {
+  text-shadow: 1px 1px 3px #40cb6c;
+}

@@ -1,0 +1,23 @@
+
+.footer {
+  background-color: #6AD58B;
+  height: 100px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.footer ul {
+  display: flex;
+    gap: 15px;
+}
+
+.footer li {
+  display: inline;
+  list-style-type: none;
+  font-size: 32px;
+  color: white;
+}
